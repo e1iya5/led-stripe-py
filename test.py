@@ -7,7 +7,7 @@ Wenn alles glatt läuft, müsste die Lichterkette von rot über lila bis blau er
 © Elias Gürlich, 2016
 """
 
-from lib import LED_Stripe, LED_Stripe_Datagram, LED # Alles aus der LED-Stripe-Lib importieren
+from led_stripe_py import LED_Stripe, LED_Stripe_Datagram, LED # Alles aus der LED-Stripe-Lib importieren
 import math # Importiere natives Math-Modul
 
 HOST_NAME = "localhost"
