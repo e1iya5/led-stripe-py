@@ -41,7 +41,6 @@ def randColor():
 position = 0
 train_length = 30
 vorwaerts = True
-#color = randColor()
 while True:
     leds = []
     color = randColor()
